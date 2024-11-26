@@ -58,7 +58,7 @@ ROOT_URLCONF = 'friends_love_assembly.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Adjust if needed
+        'DIRS': [BASE_DIR / 'templates'],  # Adjust if needed
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
